@@ -1,0 +1,50 @@
+.habit-form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+margin-top:30px;
+
+max-width:500px;
+
+}
+
+.habit-form input,
+.habit-form select{
+
+padding:15px;
+
+font-size:18px;
+
+border:1px solid #ddd;
+
+border-radius:8px;
+
+}
+
+.habit-form button{
+
+padding:15px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+font-size:18px;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.habit-form button:hover{
+
+background:#1d4ed8;
+
+}
